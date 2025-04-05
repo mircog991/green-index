@@ -33,7 +33,7 @@ last_5_years = list(range(latest_year - 4, latest_year + 1))
 recent_data = europe_df[europe_df['year'].isin(last_5_years)]
 
 # Step 7: Save the filtered data
-#recent_data.to_csv('/Users/user/Desktop/Project/european_co2_last5years.csv', index=False)
+#recent_data.to_csv('/Users/user/Documents/GitHub/green-index/data/cleaned/european_co2_last5years.csv', index=False)
 
 # Step 8: Preview
 print(f"\n✅ Cleaned data for years {last_5_years} saved to 'european_co2_last5years.csv'")

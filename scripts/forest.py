@@ -28,4 +28,4 @@ df_last_5_years = df_europe[['Country Name', 'Country Code', 'Indicator Name', '
 print(df_last_5_years.head())
 
 # Save the cleaned DataFrame to a CSV
-#df_last_5_years.to_csv('/Users/user/Desktop/Project/final_european_forest_data.csv', index=False)
+#df_last_5_years.to_csv('/Users/user/Documents/GitHub/green-index/data/cleaned/final_european_forest_data.csv', index=False)

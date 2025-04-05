@@ -43,7 +43,7 @@ df_last_5_years['country'] = df_last_5_years['iso_code'].map(iso_to_country)
 df_final = df_last_5_years[['country', 'year', 'iso_code', 'value']]
 
 # Save the final DataFrame to a CSV file
-#df_final.to_csv('/Users/user/Desktop/Project/final_estat_data.csv', index=False)
+#df_final.to_csv('/Users/user/Documents/GitHub/green-index/data/cleaned/final_estat_data.csv', index=False)
 
 # Display the final DataFrame
 print("First few rows of the final DataFrame with full country names:")

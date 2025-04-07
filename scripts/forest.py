@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset, skipping the first few rows (already done)
-df = pd.read_csv('/Users/user/Desktop/green-index/data/API_AG.LND.FRST.ZS_DS2_en_csv_v2_13350.csv', on_bad_lines='skip', skiprows=4)
+df = pd.read_csv('/data/API_AG.LND.FRST.ZS_DS2_en_csv_v2_13350.csv', on_bad_lines='skip', skiprows=4)
 
 # Drop any unwanted columns (e.g., 'Unnamed: 68')
 df = df.drop(columns=['Unnamed: 68'], errors='ignore')

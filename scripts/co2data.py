@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Load the CSV file
-df = pd.read_csv('/data/owid-co2-data.csv')
+df = pd.read_csv('data_raw/owid-co2-data.csv')
 
 # Step 2: Preview structure
 print("Preview of the data:")
@@ -33,7 +33,7 @@ last_5_years = list(range(latest_year - 4, latest_year + 1))
 recent_data = europe_df[europe_df['year'].isin(last_5_years)]
 
 # Step 7: Save the filtered data
-#recent_data.to_csv('/Users/user/Desktop/Project/european_co2_last5years.csv', index=False)
+recent_data.to_csv('data_final/european_co2_last5years.csv', index=False)
 
 # Step 8: Preview
 print(f"\n✅ Cleaned data for years {last_5_years} saved to 'european_co2_last5years.csv'")

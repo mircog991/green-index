@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset, skipping the first few rows (already done)
-df = pd.read_csv('/data/API_AG.LND.FRST.ZS_DS2_en_csv_v2_13350.csv', on_bad_lines='skip', skiprows=4)
+df = pd.read_csv('data_raw/API_AG.LND.FRST.ZS_DS2_en_csv_v2_13350.csv', on_bad_lines='skip', skiprows=4)
 
 # Drop any unwanted columns (e.g., 'Unnamed: 68')
 df = df.drop(columns=['Unnamed: 68'], errors='ignore')
@@ -28,4 +28,4 @@ df_last_5_years = df_europe[['Country Name', 'Country Code', 'Indicator Name', '
 print(df_last_5_years.head())
 
 # Save the cleaned DataFrame to a CSV
-#df_last_5_years.to_csv('/Users/user/Desktop/Project/final_european_forest_data.csv', index=False)
+df_last_5_years.to_csv('data_final/final_european_forest_data.csv', index=False)

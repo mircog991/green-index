@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the .tsv file into a DataFrame
-df = pd.read_csv('/Users/user/Desktop/green-index/data/estat_sdg_07_11.tsv', sep='\t')
+df = pd.read_csv('/data/estat_sdg_07_11.tsv', sep='\t')
 
 # Strip any leading or trailing whitespace from column names
 df.columns = df.columns.str.strip()

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Load the CSV file
-df = pd.read_csv('/Users/user/Desktop/green-index/data/owid-co2-data.csv')
+df = pd.read_csv('/data/owid-co2-data.csv')
 
 # Step 2: Preview structure
 print("Preview of the data:")

@@ -24,7 +24,7 @@ df_last_5_years = df_melted[df_melted['year'].isin(['2019', '2020', '2021', '202
 # Rename columns to match the final output
 df_last_5_years = df_last_5_years.rename(columns={'freq': 'country', 'geo': 'iso_code'})
 
-# Mapping of ISO codes to full country names (you need to customize this dictionary as needed)
+# Mapping of ISO codes to full country names
 iso_to_country = {
     'AT': 'Austria', 'BE': 'Belgium', 'BG': 'Bulgaria', 'CY': 'Cyprus',
     'CZ': 'Czech Republic', 'DE': 'Germany', 'DK': 'Denmark', 'EE': 'Estonia',
@@ -33,7 +33,6 @@ iso_to_country = {
     'LT': 'Lithuania', 'LU': 'Luxembourg', 'LV': 'Latvia', 'MT': 'Malta',
     'NL': 'Netherlands', 'PL': 'Poland', 'PT': 'Portugal', 'RO': 'Romania',
     'SE': 'Sweden', 'SI': 'Slovenia', 'SK': 'Slovakia'
-    # Add more mappings as needed
 }
 
 # Replace ISO codes with full country names

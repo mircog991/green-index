@@ -1,21 +1,21 @@
 import pandas as pd
 
-# Load the dataset, skipping the first few rows (already done)
+# Load the dataset, skipping the first few rows
 df = pd.read_csv('data_raw/API_AG.LND.FRST.ZS_DS2_en_csv_v2_13350.csv', on_bad_lines='skip', skiprows=4)
 
-# Drop any unwanted columns (e.g., 'Unnamed: 68')
+# Drop any unwanted columns 
 df = df.drop(columns=['Unnamed: 68'], errors='ignore')
 
 # Check if the column names and rows are correct
 print(df.head())
 
-# List of European country names or ISO codes (just an example, make sure to adjust this list)
+# List of European countries
 european_countries = [
     "Albania", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", 
     "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", 
     "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Kosovo", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", 
     "Malta", "Moldova", "Monaco", "Montenegro", "Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", 
-    "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom"
+    "Russian Federation", "San Marino", "Serbia", "Slovak Republic", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkiye", "Ukraine", "United Kingdom", "Vatican"
 ]
 
 # Filter for European countries

@@ -31,7 +31,7 @@ df_last_5_years['country'] = df_last_5_years['iso_code'].map(iso_to_country).fil
 df_final = df_last_5_years[['country', 'year', 'iso_code', 'value']]
 
 # Save to CSV
-df_final.to_csv('data_final/final_estat_data.csv', index=False)
+df_final.to_csv('data_final/renewable_energy_consumption_estat_data.csv', index=False)
 
 # Print preview
 print("First few rows of the final DataFrame:")

@@ -36,4 +36,3 @@ recent_data.to_csv('data_final/european_co2_last5years.csv', index=False)
 print(f"\n✅ Cleaned data for years {last_5_years} saved to 'european_co2_last5years.csv'")
 print("\nPreview of recent data:")
 print(recent_data.head())
-

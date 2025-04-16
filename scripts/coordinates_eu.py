@@ -54,17 +54,25 @@ country_coords = {
     'Vatican': (41.9029, 12.4534)
 }
 
+# Build DataFrame with Latitude and Longitude already split
 coords_df = pd.DataFrame([
-    {'Entity': country, 'Coordinates': f"{lat}, {lon}"}
+    {'Entity': country, 'Latitude': lat, 'Longitude': lon}
     for country, (lat, lon) in country_coords.items()
 ])
 
+# Save to CSV
 coords_df.to_csv('data_final/european_country_coordinates.csv', index=False)
 
-"""to add in the other csv files - adds the coordinates for map
 
-data = pd.read_csv('european_country_coordinates.csv')
-coords = pd.read_csv('european_country_coordinates.csv')
+"""""
+
+data = pd.read_csv('data_final/XXXXX')
+coords = pd.read_csv('data_final/european_country_coordinates.csv')
+
+# Optional: normalize casing just in case
+data['Entity'] = data['Entity'].str.strip().str.lower()
+coords['Entity'] = coords['Entity'].str.strip().str.lower()
+
+# Merge latitude and longitude into your dataset
 data_with_coords = pd.merge(data, coords, on='Entity', how='left')
-
 """

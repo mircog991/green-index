@@ -1,0 +1,180 @@
+country,year,iso_code,value
+Albania,2019,AL,38.042
+Albania,2020,AL,45.015
+Albania,2021,AL,41.389
+Albania,2022,AL,44.076
+Albania,2023,AL,46.62
+Austria,2019,AT,33.755
+Austria,2020,AT,36.545
+Austria,2021,AT,34.792
+Austria,2022,AT,34.075
+Austria,2023,AT,40.844
+Bosnia and Herzegovina,2019,BA,37.454
+Bosnia and Herzegovina,2020,BA,39.835
+Bosnia and Herzegovina,2021,BA,36.562
+Belgium,2019,BE,9.929
+Belgium,2020,BE,13.0
+Belgium,2021,BE,13.076
+Belgium,2022,BE,13.816
+Belgium,2023,BE,14.741
+Bulgaria,2019,BG,21.545
+Bulgaria,2020,BG,23.319
+Bulgaria,2021,BG,19.445
+Bulgaria,2022,BG,19.044
+Bulgaria,2023,BG,22.549
+Cyprus,2019,CY,13.777
+Cyprus,2020,CY,16.879
+Cyprus,2021,CY,19.069
+Cyprus,2022,CY,19.427
+Cyprus,2023,CY,20.213
+Czech Republic,2019,CZ,16.239
+Czech Republic,2020,CZ,17.303
+Czech Republic,2021,CZ,17.614
+Czech Republic,2022,CZ,18.123
+Czech Republic,2023,CZ,18.586
+Germany,2019,DE,17.266
+Germany,2020,DE,19.09
+Germany,2021,DE,19.3
+Germany,2022,DE,20.814
+Germany,2023,DE,21.562
+Denmark,2019,DK,37.02
+Denmark,2020,DK,31.681
+Denmark,2021,DK,41.813
+Denmark,2022,DK,42.383
+Denmark,2023,DK,44.396
+Euro area – 20 countries (from 2023),2021,EA20,20.656
+Euro area – 20 countries (from 2023),2022,EA20,21.804
+Euro area – 20 countries (from 2023),2023,EA20,23.4
+Estonia,2019,EE,31.73
+Estonia,2020,EE,30.069
+Estonia,2021,EE,37.342
+Estonia,2022,EE,38.542
+Estonia,2023,EE,40.95
+Greece,2019,EL,19.633
+Greece,2020,EL,21.749
+Greece,2021,EL,22.001
+Greece,2022,EL,22.671
+Greece,2023,EL,25.269
+Spain,2019,ES,17.852
+Spain,2020,ES,21.22
+Spain,2021,ES,20.55
+Spain,2022,ES,21.896
+Spain,2023,ES,24.852
+European Union - 27 countries (from 2020),2019,EU27_2020,19.887
+European Union - 27 countries (from 2020),2020,EU27_2020,22.038
+European Union - 27 countries (from 2020),2021,EU27_2020,21.894
+European Union - 27 countries (from 2020),2022,EU27_2020,23.058
+European Union - 27 countries (from 2020),2023,EU27_2020,24.554
+Finland,2019,FI,42.807
+Finland,2020,FI,43.939
+Finland,2021,FI,42.819
+Finland,2022,FI,47.74
+Finland,2023,FI,50.75
+France,2019,FR,17.174
+France,2020,FR,19.109
+France,2021,FR,19.316
+France,2022,FR,20.445
+France,2023,FR,22.283
+Croatia,2019,HR,28.466
+Croatia,2020,HR,31.023
+Croatia,2021,HR,31.285
+Croatia,2022,HR,28.088
+Croatia,2023,HR,28.051
+Hungary,2019,HU,12.634
+Hungary,2020,HU,13.85
+Hungary,2021,HU,14.134
+Hungary,2022,HU,15.128
+Hungary,2023,HU,17.117
+Ireland,2019,IE,11.979
+Ireland,2020,IE,16.16
+Ireland,2021,IE,12.996
+Ireland,2022,IE,13.068
+Ireland,2023,IE,15.253
+Iceland,2019,IS,78.612
+Iceland,2020,IS,83.725
+Iceland,2021,IS,80.185
+Iceland,2022,IS,79.475
+Italy,2019,IT,18.181
+Italy,2020,IT,20.359
+Italy,2021,IT,18.883
+Italy,2022,IT,19.131
+Italy,2023,IT,19.594
+Lithuania,2019,LT,25.474
+Lithuania,2020,LT,26.773
+Lithuania,2021,LT,28.166
+Lithuania,2022,LT,29.599
+Lithuania,2023,LT,31.926
+Luxembourg,2019,LU,7.046
+Luxembourg,2020,LU,11.699
+Luxembourg,2021,LU,11.726
+Luxembourg,2022,LU,14.262
+Luxembourg,2023,LU,14.355
+Latvia,2019,LV,40.929
+Latvia,2020,LV,42.132
+Latvia,2021,LV,42.096
+Latvia,2022,LV,43.72
+Latvia,2023,LV,43.223
+Montenegro,2019,ME,37.722
+Montenegro,2020,ME,43.77
+Montenegro,2021,ME,39.891
+Montenegro,2022,ME,41.064
+Montenegro,2023,ME,40.883
+North Macedonia,2019,MK,17.485
+North Macedonia,2020,MK,19.222
+North Macedonia,2021,MK,17.8
+North Macedonia,2022,MK,19.213
+North Macedonia,2023,MK,20.214
+Malta,2019,MT,8.23
+Malta,2020,MT,10.714
+Malta,2021,MT,12.631
+Malta,2022,MT,13.969
+Malta,2023,MT,15.077
+Netherlands,2019,NL,8.886
+Netherlands,2020,NL,13.999
+Netherlands,2021,NL,13.116
+Netherlands,2022,NL,15.134
+Netherlands,2023,NL,17.42
+Norway,2019,NO,74.406
+Norway,2020,NO,77.358
+Norway,2021,NO,74.026
+Norway,2022,NO,75.875
+Norway,2023,NO,75.613
+Poland,2019,PL,15.377
+Poland,2020,PL,16.102
+Poland,2021,PL,15.604
+Poland,2022,PL,16.629
+Poland,2023,PL,16.564
+Portugal,2019,PT,30.623
+Portugal,2020,PT,33.982
+Portugal,2021,PT,33.982
+Portugal,2022,PT,34.675
+Portugal,2023,PT,35.163
+Romania,2019,RO,24.29
+Romania,2020,RO,24.478
+Romania,2021,RO,23.871
+Romania,2022,RO,24.229
+Romania,2023,RO,25.757
+Serbia,2019,RS,21.443
+Serbia,2020,RS,26.297
+Serbia,2021,RS,25.255
+Serbia,2022,RS,24.67
+Serbia,2023,RS,25.428
+Sweden,2019,SE,55.785
+Sweden,2020,SE,60.124
+Sweden,2021,SE,62.527
+Sweden,2022,SE,66.287
+Sweden,2023,SE,66.393
+Slovenia,2019,SI,21.968
+Slovenia,2020,SI,25.0
+Slovenia,2021,SI,25.0
+Slovenia,2022,SI,25.002
+Slovenia,2023,SI,25.066
+Slovakia,2019,SK,16.894
+Slovakia,2020,SK,17.345
+Slovakia,2021,SK,17.419
+Slovakia,2022,SK,17.481
+Slovakia,2023,SK,16.99
+Kosovo*,2019,XK,24.215
+Kosovo*,2020,XK,24.401
+Kosovo*,2021,XK,22.14
+Kosovo*,2022,XK,18.779

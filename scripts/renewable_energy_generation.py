@@ -37,7 +37,7 @@ merged[generation_columns] = merged[generation_columns].fillna(0)
 merged['Code'] = merged['Code'].fillna('')
 
 
-merged.to_csv('data_final/renewable.csv', index=False)
+merged.to_csv('data_final/renewable-energy-generation.csv', index=False)
 
 
 original_countries = df['Entity'].unique()
